@@ -1,0 +1,11 @@
+{
+    "LiteBuildConfig": {
+        "contents": ["./quiz"],
+        "ignore_sys_prefix": ["federated_extensions", "mathjax"],
+        "output_dir": "./build/_output",
+        "lite_dir": "./build",
+        "XeusPythonEnv": {
+            "packages": ["numpy", "matplotlib", "ipyleaflet", "scipy", "pandas", "scikit-learn", "scikit-image", "networkx"]
+        }
+    }
+}

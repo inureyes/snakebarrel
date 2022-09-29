@@ -1,0 +1,22 @@
+{
+  "name": "snake-barrel",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "Jeongkyu Shin",
+  "license": "MIT",
+  "scripts": {
+    "server:d": "npx web-dev-server --node-resolve --open --watch --port 9081 --hostname 127.0.0.1 --app-index ./build/_output/index.html --file-extensions .ts"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "portastic": "^1.0.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.34",
+    "cli-color": "^2.0.3",
+    "commander": "^9.4.0",
+    "electron": "^20.1.3",
+    "electron-installer-dmg": "^4.0.0",
+    "electron-packager": "^16.0.0"
+  }
+}
