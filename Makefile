@@ -22,6 +22,7 @@ compile: versiontag
 # xeus-based kernel
 #	python -m jupyter lite build --XeusPythonEnv.packages=numpy,matplotlib,ipyleaflet,scipy,pandas,scikit-learn,scikit-image,networkx --lite-dir=build
 #	cp ./overrides.json ./build
+	mkdir build
 	cp ./jupyter-lite.json ./build
 	python -m jupyter lite build --lite-dir build
 #	python -m jupyter lite init --lite-dir build --contents ./quiz
